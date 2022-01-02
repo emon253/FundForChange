@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739340085958",
+    "project_id": "fund-for-change",
+    "storage_bucket": "fund-for-change.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739340085958:android:023eb8b690a6f0603bc5c7",
+        "android_client_info": {
+          "package_name": "com.example.fundforchange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739340085958-8j5cghqbmak9toudhdadiqdepdrm7p3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHkuF1jeoCpN1FHjFYzC50AppLnnujJvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739340085958-8j5cghqbmak9toudhdadiqdepdrm7p3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
