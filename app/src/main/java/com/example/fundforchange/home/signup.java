@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.fundforchange.R;
 
-public class signup extends AppCompatActivity {
+public class   signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
