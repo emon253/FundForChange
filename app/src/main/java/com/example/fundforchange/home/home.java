@@ -19,6 +19,10 @@ public class home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         profileBtn = findViewById(R.id.profileBtn);
 
@@ -30,10 +34,7 @@ public class home extends AppCompatActivity {
             }
         });
 
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        if (getSupportActionBar() != null) {
-//            getSupportActionBar().hide();
-//        }
+
     }
 
 }

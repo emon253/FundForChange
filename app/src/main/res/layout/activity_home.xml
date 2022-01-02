@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:layout_marginBottom="100dp"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -52,6 +53,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/round_bk2">
 
             <TextView
@@ -77,7 +79,135 @@
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="34dp"
                 android:padding="5dp"
-                android:text="@string/dummy_text"></TextView>
+                android:text="Event Description"></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:background="#0000" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/round_bk5"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="Event 2"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="1dp"
+
+                android:src="@drawable/categories_restaurant_icon" />
+
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="34dp"
+                android:padding="5dp"
+                android:text="Event Description"></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:background="#0000" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/round_bk3"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="Event 3"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="1dp"
+                />
+
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="34dp"
+                android:padding="5dp"
+                android:text="Event Description"></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:background="#0000" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/food_back"
+            android:layout_marginBottom="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="Event 1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="1dp"
+
+                 />
+
+
+            <TextView
+                android:layout_width="256dp"
+                android:layout_height="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="34dp"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:text="Event Description"></TextView>
 
             <Button
                 android:layout_width="match_parent"
