@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FundForChange">
         <activity
+            android:name=".UserMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_user_main"
+            android:theme="@style/Theme.FundForChange.NoActionBar" />
+        <activity
             android:name=".home.signup"
             android:exported="false" />
         <activity

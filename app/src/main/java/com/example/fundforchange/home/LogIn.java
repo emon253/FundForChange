@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.example.fundforchange.R;
+import com.example.fundforchange.UserMainActivity;
 
 public class LogIn extends AppCompatActivity {
 
@@ -25,5 +26,11 @@ public class LogIn extends AppCompatActivity {
     public void signup(View view){
         Intent intent = new Intent(LogIn.this, signup.class);
         startActivity(intent);
+    }
+
+    public void login(View view){
+        Intent intent = new Intent(LogIn.this , UserMainActivity.class);
+        startActivity(intent);
+
     }
 }
