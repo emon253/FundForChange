@@ -1,4 +1,4 @@
-package com.example.fundforchange;
+package com.example.fundforchange.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.fundforchange.home.home;
+import com.example.fundforchange.R;
 
 public class MainActivity extends AppCompatActivity {
 

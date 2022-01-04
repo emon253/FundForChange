@@ -1,4 +1,4 @@
-package com.example.fundforchange.ui.home;
+package com.example.fundforchange.activities.user.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

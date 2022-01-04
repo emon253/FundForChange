@@ -1,19 +1,18 @@
-package com.example.fundforchange.ui.gallery;
+package com.example.fundforchange.activities.user.event;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class GalleryViewModel extends ViewModel {
-
+public class CreateEventViewModel extends ViewModel {
     private MutableLiveData<String> mText;
 
-    public GalleryViewModel() {
+    public CreateEventViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is Create event fragment");
     }
-
     public LiveData<String> getText() {
         return mText;
     }
+
 }

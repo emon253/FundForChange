@@ -10,21 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FundForChange">
         <activity
-            android:name=".UserMainActivity"
+            android:name=".activities.user.UserMainActivity"
             android:exported="false"
             android:label="@string/title_activity_user_main"
             android:theme="@style/Theme.FundForChange.NoActionBar" />
         <activity
-            android:name=".home.signup"
+            android:name=".activities.signup"
             android:exported="false" />
         <activity
-            android:name=".home.LogIn"
+            android:name=".activities.LogIn"
             android:exported="false" />
         <activity
-            android:name=".home.home"
+            android:name=".activities.home"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

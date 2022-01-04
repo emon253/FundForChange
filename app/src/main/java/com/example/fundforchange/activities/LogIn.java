@@ -1,4 +1,4 @@
-package com.example.fundforchange.home;
+package com.example.fundforchange.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,21 +8,29 @@ import android.view.View;
 import android.view.WindowManager;
 
 import com.example.fundforchange.R;
+import com.example.fundforchange.activities.user.UserMainActivity;
 
-public class   signup extends AppCompatActivity {
+public class LogIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_log_in);
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
         }
     }
 
-    public void login(View view){
-        Intent intent = new Intent(signup.this, LogIn.class);
+    public void signup(View view){
+        Intent intent = new Intent(LogIn.this, signup.class);
         startActivity(intent);
+    }
+
+    public void login(View view){
+        Intent intent = new Intent(LogIn.this , UserMainActivity.class);
+        startActivity(intent);
+
     }
 }
