@@ -16,10 +16,13 @@
         android:name="com.example.fundforchange.activities.user.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.fundforchange.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_create_event"
+        android:name="com.example.fundforchange.activities.user.event.CreateEventFragment"
+        android:label="Create an Event"
+        tools:layout="@layout/fragment_create_event"
+        />
+
+
+
 </navigation>
