@@ -1,29 +1,32 @@
 package com.example.fundforchange.activities.user;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
-
-import com.example.fundforchange.R;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.navigation.NavigationView;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fundforchange.R;
 import com.example.fundforchange.databinding.ActivityUserMainBinding;
+import com.google.android.material.navigation.NavigationView;
 
 public class UserMainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityUserMainBinding binding;
+    private Button createEventUINextBtn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,11 +54,15 @@ public class UserMainActivity extends AppCompatActivity {
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
                 int menuId = destination.getId();
 
-                switch (menuId){
+                switch (menuId) {
 
                 }
             }
         });
+
+
+
+
     }
 
     @Override
