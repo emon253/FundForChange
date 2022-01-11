@@ -12,15 +12,17 @@
         android:id="@+id/imageView3"
         android:layout_width="287dp"
         android:layout_height="132dp"
-        android:src="@drawable/donation_background"
+        android:src="@drawable/ffc2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="381dp"
+        android:layout_width="match_parent"
         android:layout_height="501dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,7 +118,6 @@
                 android:layout_height="60dp"
                 android:hint="Donation Goal"
                 app:helperTextTextColor="#FF5252"
-                app:startIconDrawable="@drawable/doller_icon"
                 tools:ignore="DuplicateIds,InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
