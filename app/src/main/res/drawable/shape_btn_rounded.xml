@@ -18,10 +18,5 @@
     <corners
         android:radius="150dp"   >
     </corners>
-  <gradient
-      android:startColor="#AAAFBF"
-      android:centerColor="#8D9BBC"
-      android:endColor="#6476AF"
-      />
 
 </shape>

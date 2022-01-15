@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/createEventPage1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E040FB"
+    android:background="#97DFDB"
+    android:orientation="vertical"
     tools:context=".activities.user.event.CreateEventFragment">
 
     <ImageView
@@ -13,12 +14,10 @@
         android:layout_width="287dp"
         android:layout_height="132dp"
         android:src="@drawable/ffc2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center_horizontal"
+         />
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="501dp"
         android:layout_marginRight="20dp"
@@ -35,26 +34,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
             android:gravity="bottom|end"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
-<!--            <com.google.android.material.textfield.TextInputLayout-->
-<!--                android:id="@+id/donationTypeFieldLayout"-->
-<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:id="@+id/donationTypeFieldLayout"-->
+            <!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
 
-<!--                >-->
+            <!--                >-->
 
-<!--                <AutoCompleteTextView-->
-<!--                    android:id="@+id/donationTypeField"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:inputType="none"-->
-<!--                    android:text="Donation Type" />-->
+            <!--                <AutoCompleteTextView-->
+            <!--                    android:id="@+id/donationTypeField"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:inputType="none"-->
+            <!--                    android:text="Donation Type" />-->
 
-<!--            </com.google.android.material.textfield.TextInputLayout>-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/eventNameField"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -68,7 +67,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:inputType="number"
+                    android:inputType="textMultiLine"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -87,11 +86,12 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:inputType="text"
+                    android:inputType="textMultiLine"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/eventLocation"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -105,7 +105,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:inputType="text"
+                    android:inputType="textMultiLine"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -135,12 +135,12 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_marginTop="45dp"
-                android:background="@drawable/shape_btn_rounded"
+                android:backgroundTint="#60B6B2"
                 android:text="Next"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
         </LinearLayout>
-    </ScrollView>
+    </RelativeLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
