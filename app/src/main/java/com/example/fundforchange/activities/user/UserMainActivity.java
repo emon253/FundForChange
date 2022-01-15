@@ -1,5 +1,6 @@
 package com.example.fundforchange.activities.user;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -18,6 +19,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.fundforchange.R;
+import com.example.fundforchange.activities.LogIn;
+import com.example.fundforchange.activities.profile;
 import com.example.fundforchange.databinding.ActivityUserMainBinding;
 import com.google.android.material.navigation.NavigationView;
 
@@ -77,5 +80,10 @@ public class UserMainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_user_main);
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
+    }
+
+    public void profile(View view){
+        Intent intent = new Intent(UserMainActivity.this , profile.class);
+        startActivity(intent);
     }
 }
