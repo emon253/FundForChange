@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/createEventPage1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/createEventPage1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#97DFDB"
@@ -13,16 +13,16 @@
         android:id="@+id/imageView3"
         android:layout_width="287dp"
         android:layout_height="132dp"
-        android:src="@drawable/ffc2"
         android:layout_gravity="center_horizontal"
-         />
+        android:src="@drawable/ffc2" />
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="501dp"
-        android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/shape"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.481"
@@ -55,35 +55,45 @@
 
             <!--            </com.google.android.material.textfield.TextInputLayout>-->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/eventNameField"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Event Name"
-                app:helperTextTextColor="#FF5252"
+                android:textColorHint="#8F8383"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/donation_event_icon"
+                app:startIconTint="@color/black"
                 tools:ignore="DuplicateIds,InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventDonationGoal"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
+                    android:outlineSpotShadowColor="@color/black"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/eventDescriptionField"
+                android:id="@+id/eventDescriptionFieldLayout"
+
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:hint="Event Description"
-                app:helperTextTextColor="#FF5252"
+                android:textColorHint="#8F8383"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/donation_purpose_icon"
+                app:startIconTint="@color/black"
                 tools:ignore="InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventDescriptionField"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
@@ -93,16 +103,19 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/eventLocation"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:hint="Event Location"
-                app:helperTextTextColor="#FF5252"
+                android:textColorHint="#8F8383"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
                 app:startIconDrawable="@drawable/donation_location_icon"
+                app:startIconTint="@color/black"
                 tools:ignore="InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventLocation"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="textMultiLine"
@@ -112,15 +125,21 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/donationGoal"
+                android:id="@+id/eventDonationGoalLayout"
+
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:hint="Donation Goal"
-                app:helperTextTextColor="#FF5252"
+                android:textColorHint="#8F8383"
+                app:boxStrokeColor="@color/black"
+                app:hintTextColor="@color/black"
+                app:startIconTint="@color/black"
+                app:startIconDrawable="@drawable/doller_icon"
                 tools:ignore="DuplicateIds,InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventNameField"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:inputType="number"
@@ -128,6 +147,12 @@
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
+
+            <ViewStub
+                android:id="@+id/layout_stub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inflatedId="@+id/message_layout" />
 
             <Button
                 android:id="@+id/nextBtn"
@@ -140,7 +165,7 @@
                 android:textColor="#FFFFFF"
                 android:textSize="10sp" />
         </LinearLayout>
-    </RelativeLayout>
+    </ScrollView>
 
 
 </LinearLayout>

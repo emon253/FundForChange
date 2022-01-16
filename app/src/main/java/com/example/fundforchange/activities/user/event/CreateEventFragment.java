@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +11,8 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import com.example.fundforchange.R;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 
 public class CreateEventFragment extends Fragment {
@@ -25,6 +26,9 @@ public class CreateEventFragment extends Fragment {
 
     private ConstraintLayout createEventPage1;
     private ConstraintLayout createEventPage2;
+    private TextInputEditText eventDescriptionField;
+    private TextInputLayout eventDescriptionFieldLayout;
+    private TextInputLayout eventGoalFieldLayout;
 
     public CreateEventFragment() {
 
@@ -48,10 +52,14 @@ public class CreateEventFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
-
-
-
+//        ViewStub stub = (ViewStub) getActivity().findViewById(R.id.layout_stub);
+//
+//        System.out.println("This is stub    "+stub);
+//        stub.setLayoutResource(R.layout.fragment_create_event2);
+//        View inflated = stub.inflate();
+//        LayoutInflater inflater = getLayoutInflater();
+//
+//        inflater.inflate(R.layout.fragment_create_event, container, false);
 
     }
 
@@ -73,6 +81,8 @@ public class CreateEventFragment extends Fragment {
 //        );
 //        donationtypeField.setAdapter(adapter);
 
+        //  eventDescriptionField =(TextInputEditText) getView().findViewById(R.id.eventDescriptionField);
+
     }
 
     @Override
@@ -81,4 +91,5 @@ public class CreateEventFragment extends Fragment {
 
         return inflater.inflate(R.layout.fragment_create_event, container, false);
     }
+
 }

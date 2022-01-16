@@ -16,5 +16,9 @@
             android:id="@+id/nav_create_event"
             android:icon="@drawable/ic_action_create_event"
             android:title="@string/menu_requestEvent" />
+<!--        <item-->
+<!--            android:id="@+id/nav_registered_user"-->
+<!--            android:icon="@drawable/ic_action_create_event"-->
+<!--            android:title="Registered Users" />-->
     </group>
 </menu>
