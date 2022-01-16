@@ -16,9 +16,9 @@ public class myevent_adapter extends RecyclerView.Adapter<myevent_adapter.MyView
 
     Context context;
     String[] title, desc;
-    int[] images;
+    int images;
 
-    public myevent_adapter(Context context, String[] title, String[] desc, int[] images) {
+    public myevent_adapter(Context context, String[] title, String[] desc, int images) {
         this.context = context;
         this.title = title;
         this.desc = desc;
@@ -38,7 +38,7 @@ public class myevent_adapter extends RecyclerView.Adapter<myevent_adapter.MyView
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.titleview.setText(title[position]);
         holder.descview.setText(desc[position]);
-        holder.imageView.setImageResource(images[position]);
+        holder.imageView.setImageResource(images);
     }
 
     @Override

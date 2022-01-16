@@ -26,13 +26,7 @@ public class myevent extends Fragment {
     private MyeventViewModel mViewModel;
     myevent_adapter myAdapter;
     RecyclerView recyclerView;
-    int[] images = {R.drawable.ayhay,
-            R.drawable.usa,
-            R.drawable.pusa,
-            R.drawable.kana,
-            R.drawable.kira,
-            R.drawable.dunno,
-            R.drawable.hoi};
+    int images = R.drawable.hospital_image;
     String[] title, desc;
 
     public static myevent newInstance() {
