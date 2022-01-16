@@ -38,6 +38,17 @@
         <entry key="..\:/Users/emonc/AndroidStudioProjects/FundForChange/app/src/main/res/layout/nav_header_user_main.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/emonc/AndroidStudioProjects/FundForChange/app/src/main/res/menu/activity_use_main_drawer.xml" value="0.5" />
         <entry key="..\:/Users/emonc/AndroidStudioProjects/FundForChange/app/src/main/res/menu/user_main.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/drawable-anydpi/phone_icon.xml" value="0.1425925925925926" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/activity_listview.xml" value="0.1" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/fragment_create_event.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/fragment_create_event2.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/fragment_myevent.xml" value="0.2" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/fragment_myevents.xml" value="0.25" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/layout/myevent_design.xml" value="0.2" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/menu/activity_use_main_drawer.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/imtia/AndroidStudioProjects/FundForChange/app/src/main/res/menu/user_main.xml" value="0.1" />
       </map>
     </option>
   </component>
@@ -46,5 +57,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

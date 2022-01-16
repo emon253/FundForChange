@@ -12,18 +12,19 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_myevents"
+        android:name="com.example.fundforchange.activities.user.myevents.myevent"
+        android:label="@string/menu_myevents"
+        tools:layout="@layout/fragment_myevent"/>
+
+    <fragment
         android:id="@+id/nav_create_event"
         android:name="com.example.fundforchange.activities.user.event.CreateEventFragment"
         android:label="Create an Event"
         tools:layout="@layout/fragment_create_event"
         />
 
-    <fragment
-        android:id="@+id/nav_create_event2"
-        android:name="com.example.fundforchange.activities.user.event.CreateEventFragment"
-        android:label="Create an Event"
-        tools:layout="@layout/fragment_create_event2"
-        />
+
 
 
 </navigation>

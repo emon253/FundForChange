@@ -8,9 +8,29 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">My Fund</string>
+    <string name="menu_myevents">My Events</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_requestEvent">Request an Event</string>
     <string name="input_helper_text">Required*</string>
+
+    <string-array name="event_desc">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>
+
+    </string-array>
+    <string-array name="event_name">
+        <item>please help street children</item>
+        <item>please help people in need</item>
+        <item>show love in winter</item>
+        <item>donate to pepole in winter</item>
+        <item>help a friend fight cancer</item>
+        <item>need money for heart surgery</item>
+        <item>organization for disabled people</item>
+    </string-array>
 </resources>
