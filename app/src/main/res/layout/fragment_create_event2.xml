@@ -5,7 +5,7 @@
     android:id="@+id/createEventPage2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E040FB"
+    android:background="#97DFDB"
     tools:context=".activities.user.event.CreateEventFragment">
 
     <ImageView
@@ -19,8 +19,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="381dp"
-        android:layout_height="501dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,26 +35,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:orientation="vertical"
 
-            android:orientation="vertical">
+            android:padding="10dp">
 
-<!--            <com.google.android.material.textfield.TextInputLayout-->
-<!--                android:id="@+id/donationTypeFieldLayout"-->
-<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
+            <!--            <com.google.android.material.textfield.TextInputLayout-->
+            <!--                android:id="@+id/donationTypeFieldLayout"-->
+            <!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="match_parent"-->
 
-<!--                >-->
+            <!--                >-->
 
-<!--                <AutoCompleteTextView-->
-<!--                    android:id="@+id/donationTypeField"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:inputType="none"-->
-<!--                    android:text="Donation Type" />-->
+            <!--                <AutoCompleteTextView-->
+            <!--                    android:id="@+id/donationTypeField"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:inputType="none"-->
+            <!--                    android:text="Donation Type" />-->
 
-<!--            </com.google.android.material.textfield.TextInputLayout>-->
+            <!--            </com.google.android.material.textfield.TextInputLayout>-->
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/createEventemailField"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -90,6 +92,7 @@
                     android:textSize="14sp" />
 
             </com.google.android.material.textfield.TextInputLayout>
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/createEventNidField"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -120,54 +123,48 @@
 
 
             <com.google.android.material.tabs.TabLayout
-                android:background="@drawable/shape"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabMode="scrollable"
-                app:tabContentStart="6dp">
+                android:background="@drawable/shape"
+                app:tabContentStart="6dp"
+                app:tabMode="scrollable">
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bkash"
-                    />
+                    android:text="Bkash" />
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rocket"
-                    />
+                    android:text="Rocket" />
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nagad"
-                    />
+                    android:text="Nagad" />
 
                 <com.google.android.material.tabs.TabItem
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Credit or debit card"
-                    />
-
+                    android:text="Credit or debit card" />
 
 
             </com.google.android.material.tabs.TabLayout>
 
             <Button
-                android:id="@+id/eventRequestSubmitBtn"
+                android:id="@+id/submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_gravity="right"
                 android:layout_marginTop="45dp"
-                android:background="@drawable/shape_btn_rounded"
-                android:text="Submit"
-                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#60B6B2"
+                android:text="submit"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="10sp" />
         </LinearLayout>
     </ScrollView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

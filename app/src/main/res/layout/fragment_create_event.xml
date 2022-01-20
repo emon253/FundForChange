@@ -135,7 +135,6 @@
                 app:boxStrokeColor="@color/black"
                 app:hintTextColor="@color/black"
                 app:startIconTint="@color/black"
-                app:startIconDrawable="@drawable/doller_icon"
                 tools:ignore="DuplicateIds,InvalidId">
 
                 <com.google.android.material.textfield.TextInputEditText
