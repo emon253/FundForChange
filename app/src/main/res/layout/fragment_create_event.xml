@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/createEventPage1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#97DFDB"
-    android:orientation="vertical"
     tools:context=".activities.user.event.CreateEventFragment">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="287dp"
-        android:layout_height="132dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/ffc2" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="501dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/shape"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.28"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="bottom|end"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical">
+
+
 
             <!--            <com.google.android.material.textfield.TextInputLayout-->
             <!--                android:id="@+id/donationTypeFieldLayout"-->
@@ -57,7 +41,7 @@
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:hint="Event Name"
                 android:textColorHint="#8F8383"
                 app:boxStrokeColor="@color/black"
@@ -147,24 +131,79 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <ViewStub
-                android:id="@+id/layout_stub"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createEventemailField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inflatedId="@+id/message_layout" />
+                android:layout_height="60dp"
+                android:hint="Email"
+                app:helperTextTextColor="#FF5252"
+                app:startIconDrawable="@drawable/donation_event_icon"
+                tools:ignore="DuplicateIds,InvalidId">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createEventPhoneNumberField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Phone Number"
+                app:helperTextTextColor="#FF5252"
+                app:startIconDrawable="@drawable/phone_icon"
+                tools:ignore="InvalidId">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/createEventNidField"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="NID"
+                app:helperTextTextColor="#FF5252"
+                app:startIconDrawable="@drawable/identity_icon"
+                tools:ignore="InvalidId">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
             <Button
                 android:id="@+id/nextBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
                 android:layout_alignParentBottom="true"
-                android:layout_marginTop="45dp"
+                android:layout_marginTop="10dp"
                 android:backgroundTint="#60B6B2"
                 android:text="Next"
                 android:textColor="#FFFFFF"
                 android:textSize="10sp" />
+
         </LinearLayout>
-    </ScrollView>
 
 
-</LinearLayout>
+
+
+
+</ScrollView>

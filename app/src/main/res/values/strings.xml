@@ -13,6 +13,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="menu_requestEvent">Request an Event</string>
     <string name="input_helper_text">Required*</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
 
     <string-array name="event_desc">
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus mattis fringilla. Vivamus orci ligula, semper ornare vulputate ac, sollicitudin ut libero. Donec eu arcu vitae purus dictum venenatis vitae nec ex. Aliquam mauris ligula, pretium eu dui ac, tristique eleifend tortor. Curabitur mi lectus, accumsan vel pharetra a, mattis in enim. Vivamus vehicula turpis non dapibus faucibus. Donec efficitur dolor et nisi fermentum ornare. Etiam et enim semper odio pretium pellentesque et et quam. Sed ullamcorper libero at eros viverra pretium. Praesent placerat dolor vitae aliquam elementum. Etiam et varius orci, non ornare erat.</item>

@@ -9,7 +9,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import com.example.fundforchange.R;
 import com.example.fundforchange.adapters.myevent_adapter;
 
@@ -44,7 +42,7 @@ public class myevent extends Fragment {
         desc = getResources().getStringArray(R.array.event_desc);
         recyclerView = view.findViewById(R.id.myeventview);
 
-        myAdapter = new myevent_adapter(getActivity(), title, desc, images);
+        myAdapter = new myevent_adapter(getActivity( ), title, desc, images);
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 

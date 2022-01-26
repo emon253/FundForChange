@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FundForChange">
         <activity
+            android:name=".activities.adminCheckEvent"
+            android:exported="false" />
+        <activity
             android:name=".activities.profile"
             android:exported="false" />
         <activity
