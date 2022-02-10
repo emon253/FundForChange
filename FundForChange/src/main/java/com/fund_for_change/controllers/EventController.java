@@ -28,9 +28,9 @@ public class EventController {
 			return new ResponseEntity<>(this.service.saveEvent(event), HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-
 		}
 	}
+	
 
 	@GetMapping("events")
 	public ResponseEntity<List<Event>> getAllEvents() {
