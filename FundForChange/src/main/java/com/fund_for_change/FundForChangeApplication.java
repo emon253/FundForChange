@@ -1,4 +1,4 @@
-package com.emon.fund_for_change;
+package com.fund_for_change;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
